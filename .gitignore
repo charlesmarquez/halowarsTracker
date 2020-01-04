@@ -1,0 +1,10 @@
+.vscode/
+
+testing/
+
+**/node_modules
+**/dist
+
+**/config.js
+
+config.js

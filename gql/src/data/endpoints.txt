@@ -1,0 +1,12 @@
+Halo Wars 2 - Player XPs, https://www.haloapi.com/stats/hw2/xp?players={players}
+Halo Wars 2 - Player Stats Summary, https://www.haloapi.com/stats/hw2/players/{player}/stats
+Halo Wars 2 - Player Season Stats Summary, https://www.haloapi.com/stats/hw2/players/{player}/stats/seasons/{seasonId}
+
+Halo Wars 2 - Player Playlist Ratings, https://www.haloapi.com/stats/hw2/playlist/{playlistId}/rating?players={players}
+-> contains single playlist MMR 
+
+Halo Wars 2 - Player Match History, https://www.haloapi.com/stats/hw2/players/{player}/matches[?matchType][&start][&count]
+Halo Wars 2 - Player Campaign Progress, https://www.haloapi.com/stats/hw2/players/{player}/campaign-progress
+Halo Wars 2 - Match Result, https://www.haloapi.com/stats/hw2/matches/{matchId}
+Halo Wars 2 - Match Events, https://www.haloapi.com/stats/hw2/matches/{matchId}/events
+Halo Wars 2 - Leaderboard - Player CSR, https://www.haloapi.com/stats/hw2/player-leaderboards/csr/{seasonId}/{playlistId}[?count]

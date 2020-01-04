@@ -1,0 +1,5114 @@
+{
+  "GameEvents": [{
+    "MatchId": "eb18b446-292e-4e1b-ab10-19fa1f942bd0",
+    "GameMode": 3,
+    "MatchType": 3,
+    "MapId": "skirmish\\design\\MP_Ricochet\\MP_Ricochet",
+    "PlaylistId": "548d864e-8666-430e-9140-8dd2ad8fbfcd",
+    "TeamSize": 1,
+    "IsDefaultRuleSet": true,
+    "TimeSinceStartMilliseconds": 0,
+    "EventName": "MatchStart"
+  }, {
+    "PointId": "hook_bldg_EnergyCapturePoint_01",
+    "InstanceId": 1,
+    "Location": {
+      "x": 914.0,
+      "y": 54.96875,
+      "z": 608.0
+    },
+    "TimeSinceStartMilliseconds": 0,
+    "EventName": "PointCreated"
+  }, {
+    "PointId": "hook_bldg_EnergyCapturePoint_01",
+    "InstanceId": 2,
+    "Location": {
+      "x": 913.9999,
+      "y": 55.0625458,
+      "z": 928.1105
+    },
+    "TimeSinceStartMilliseconds": 0,
+    "EventName": "PointCreated"
+  }, {
+    "PointId": "hook_bldg_EnergyCapturePoint_01",
+    "InstanceId": 3,
+    "Location": {
+      "x": 651.0,
+      "y": 97.75,
+      "z": 1081.005
+    },
+    "TimeSinceStartMilliseconds": 0,
+    "EventName": "PointCreated"
+  }, {
+    "PointId": "hook_bldg_EnergyCapturePoint_01",
+    "InstanceId": 4,
+    "Location": {
+      "x": 651.0,
+      "y": 98.125,
+      "z": 456.0
+    },
+    "TimeSinceStartMilliseconds": 0,
+    "EventName": "PointCreated"
+  }, {
+    "PointId": "hook_bldg_EnergyCapturePoint_01",
+    "InstanceId": 5,
+    "Location": {
+      "x": 465.5347,
+      "y": 115.25,
+      "z": 768.1981
+    },
+    "TimeSinceStartMilliseconds": 0,
+    "EventName": "PointCreated"
+  }, {
+    "PlayerIndex": 0,
+    "PlayerType": 3,
+    "HumanPlayerId": null,
+    "ComputerPlayerId": 0,
+    "ComputerDifficulty": 2,
+    "TeamId": 0,
+    "LeaderId": 0,
+    "TimeSinceStartMilliseconds": 0,
+    "EventName": "PlayerJoinedMatch"
+  }, {
+    "PlayerIndex": 1,
+    "PlayerType": 1,
+    "HumanPlayerId": {
+      "Gamertag": "FunniestTiara69",
+      "Xuid": null
+    },
+    "ComputerPlayerId": 0,
+    "ComputerDifficulty": 0,
+    "TeamId": 1,
+    "LeaderId": 5,
+    "TimeSinceStartMilliseconds": 0,
+    "EventName": "PlayerJoinedMatch"
+  }, {
+    "PlayerIndex": 2,
+    "PlayerType": 1,
+    "HumanPlayerId": {
+      "Gamertag": "Mike BEASTon",
+      "Xuid": null
+    },
+    "ComputerPlayerId": 0,
+    "ComputerDifficulty": 0,
+    "TeamId": 2,
+    "LeaderId": 3,
+    "TimeSinceStartMilliseconds": 0,
+    "EventName": "PlayerJoinedMatch"
+  }, {
+    "PlayerIndex": 3,
+    "PlayerType": 3,
+    "HumanPlayerId": null,
+    "ComputerPlayerId": 3,
+    "ComputerDifficulty": 2,
+    "TeamId": 3,
+    "LeaderId": 5,
+    "TimeSinceStartMilliseconds": 0,
+    "EventName": "PlayerJoinedMatch"
+  }, {
+    "PlayerIndex": 1,
+    "BuildingId": "cov_bldg_builder_02",
+    "InstanceId": 6,
+    "Location": {
+      "x": 389.9999,
+      "y": 113.75,
+      "z": 492.0
+    },
+    "SupplyCost": 500,
+    "EnergyCost": 600,
+    "QueueLength": 0,
+    "ProvidedByScenario": true,
+    "TimeSinceStartMilliseconds": 0,
+    "EventName": "BuildingConstructionQueued"
+  }, {
+    "PlayerIndex": 1,
+    "SquadId": "cov_inf_generic_grunt",
+    "InstanceId": 7,
+    "CreatorInstanceId": 0,
+    "SpawnLocation": {
+      "x": 450.065582,
+      "y": 114.885284,
+      "z": 472.198
+    },
+    "SupplyCost": 100,
+    "EnergyCost": 0,
+    "PopulationCost": 2,
+    "IsClone": false,
+    "ProvidedByScenario": true,
+    "TimeSinceStartMilliseconds": 0,
+    "EventName": "UnitTrained"
+  }, {
+    "PlayerIndex": 1,
+    "SquadId": "cov_inf_generic_grunt",
+    "InstanceId": 8,
+    "CreatorInstanceId": 0,
+    "SpawnLocation": {
+      "x": 449.999573,
+      "y": 115.69986,
+      "z": 492.198
+    },
+    "SupplyCost": 100,
+    "EnergyCost": 0,
+    "PopulationCost": 2,
+    "IsClone": false,
+    "ProvidedByScenario": true,
+    "TimeSinceStartMilliseconds": 0,
+    "EventName": "UnitTrained"
+  }, {
+    "PlayerIndex": 1,
+    "SquadId": "cov_inf_generic_grunt",
+    "InstanceId": 9,
+    "CreatorInstanceId": 0,
+    "SpawnLocation": {
+      "x": 449.9336,
+      "y": 115.806274,
+      "z": 512.198
+    },
+    "SupplyCost": 100,
+    "EnergyCost": 0,
+    "PopulationCost": 2,
+    "IsClone": false,
+    "ProvidedByScenario": true,
+    "TimeSinceStartMilliseconds": 0,
+    "EventName": "UnitTrained"
+  }, {
+    "PlayerIndex": 2,
+    "BuildingId": "unsc_bldg_command_02",
+    "InstanceId": 10,
+    "Location": {
+      "x": 382.0,
+      "y": 114.3125,
+      "z": 1050.0
+    },
+    "SupplyCost": 500,
+    "EnergyCost": 600,
+    "QueueLength": 0,
+    "ProvidedByScenario": true,
+    "TimeSinceStartMilliseconds": 0,
+    "EventName": "BuildingConstructionQueued"
+  }, {
+    "PlayerIndex": 2,
+    "SquadId": "unsc_inf_generic_marine",
+    "InstanceId": 11,
+    "CreatorInstanceId": 0,
+    "SpawnLocation": {
+      "x": 442.065674,
+      "y": 115.252022,
+      "z": 1030.198
+    },
+    "SupplyCost": 150,
+    "EnergyCost": 0,
+    "PopulationCost": 3,
+    "IsClone": false,
+    "ProvidedByScenario": true,
+    "TimeSinceStartMilliseconds": 0,
+    "EventName": "UnitTrained"
+  }, {
+    "PlayerIndex": 2,
+    "SquadId": "unsc_inf_generic_marine",
+    "InstanceId": 12,
+    "CreatorInstanceId": 0,
+    "SpawnLocation": {
+      "x": 441.9997,
+      "y": 114.937469,
+      "z": 1050.198
+    },
+    "SupplyCost": 150,
+    "EnergyCost": 0,
+    "PopulationCost": 3,
+    "IsClone": false,
+    "ProvidedByScenario": true,
+    "TimeSinceStartMilliseconds": 0,
+    "EventName": "UnitTrained"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 600,
+        "TotalSupply": 600.0,
+        "Energy": 400,
+        "TotalEnergy": 400.0,
+        "Population": 6,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 0,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 0
+      },
+      "2": {
+        "Supply": 600,
+        "TotalSupply": 600.0,
+        "Energy": 400,
+        "TotalEnergy": 400.0,
+        "Population": 6,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 0,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 0
+      }
+    },
+    "TimeSinceStartMilliseconds": 406,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 2,
+    "BuildingId": "unsc_bldg_supplypad_01",
+    "InstanceId": 13,
+    "Location": {
+      "x": 391.6823,
+      "y": 114.3125,
+      "z": 1070.5321
+    },
+    "SupplyCost": 150,
+    "EnergyCost": 0,
+    "QueueLength": 0,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 4016,
+    "EventName": "BuildingConstructionQueued"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 600,
+        "TotalSupply": 600.0,
+        "Energy": 400,
+        "TotalEnergy": 400.0,
+        "Population": 6,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 12
+      },
+      "2": {
+        "Supply": 230,
+        "TotalSupply": 600.0,
+        "Energy": 385,
+        "TotalEnergy": 400.0,
+        "Population": 6,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 12
+      }
+    },
+    "TimeSinceStartMilliseconds": 5720,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 600,
+        "TotalSupply": 600.0,
+        "Energy": 400,
+        "TotalEnergy": 400.0,
+        "Population": 6,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 19
+      },
+      "2": {
+        "Supply": 240,
+        "TotalSupply": 610.64111328125,
+        "Energy": 385,
+        "TotalEnergy": 400.0,
+        "Population": 6,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 19
+      }
+    },
+    "TimeSinceStartMilliseconds": 10299,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 2,
+    "PowerId": "UnscResearchAndDevelopment1_MP",
+    "CommandPointCost": 1,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 12019,
+    "EventName": "LeaderPowerUnlocked"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 255,
+        "TotalSupply": 600.0,
+        "Energy": 385,
+        "TotalEnergy": 400.0,
+        "Population": 6,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 26
+      },
+      "2": {
+        "Supply": 260,
+        "TotalSupply": 630.6632080078125,
+        "Energy": 385,
+        "TotalEnergy": 400.0,
+        "Population": 6,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 26
+      }
+    },
+    "TimeSinceStartMilliseconds": 14962,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 55,
+        "TotalSupply": 600.0,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 6,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 33
+      },
+      "2": {
+        "Supply": 286,
+        "TotalSupply": 656.8660888671875,
+        "Energy": 385,
+        "TotalEnergy": 400.0,
+        "Population": 6,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 33
+      }
+    },
+    "TimeSinceStartMilliseconds": 19921,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 2,
+    "BuildingId": "unsc_bldg_supplypad_01",
+    "InstanceId": 14,
+    "Location": {
+      "x": 391.8176,
+      "y": 114.3125,
+      "z": 1029.53223
+    },
+    "SupplyCost": 150,
+    "EnergyCost": 0,
+    "QueueLength": 0,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 22506,
+    "EventName": "BuildingConstructionQueued"
+  }, {
+    "PlayerIndex": 2,
+    "InstanceId": 13,
+    "TimeSinceStartMilliseconds": 22584,
+    "EventName": "BuildingConstructionCompleted"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 55,
+        "TotalSupply": 600.0,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 6,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 40
+      },
+      "2": {
+        "Supply": 186,
+        "TotalSupply": 706.5322265625,
+        "Energy": 185,
+        "TotalEnergy": 400.0,
+        "Population": 6,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 80
+      }
+    },
+    "TimeSinceStartMilliseconds": 24899,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 2,
+    "SquadId": "unsc_veh_mongoose_01",
+    "InstanceId": 15,
+    "CreatorInstanceId": 10,
+    "SpawnLocation": {
+      "x": 388.999969,
+      "y": 114.3125,
+      "z": 1050.02307
+    },
+    "SupplyCost": 220,
+    "EnergyCost": 15,
+    "PopulationCost": 3,
+    "IsClone": false,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 27911,
+    "EventName": "UnitTrained"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 55,
+        "TotalSupply": 600.0,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 6,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 47
+      },
+      "2": {
+        "Supply": 248,
+        "TotalSupply": 768.28302001953125,
+        "Energy": 185,
+        "TotalEnergy": 400.0,
+        "Population": 9,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 87
+      }
+    },
+    "TimeSinceStartMilliseconds": 30021,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 63,
+        "TotalSupply": 608.372314453125,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 6,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 54
+      },
+      "2": {
+        "Supply": 305,
+        "TotalSupply": 825.45361328125,
+        "Energy": 185,
+        "TotalEnergy": 400.0,
+        "Population": 9,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 94
+      }
+    },
+    "TimeSinceStartMilliseconds": 35109,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 2,
+    "BuildingId": "unsc_bldg_minibase1sock_01",
+    "InstanceId": 16,
+    "Location": {
+      "x": 344.6536,
+      "y": 116.4375,
+      "z": 898.3828
+    },
+    "SupplyCost": 200,
+    "EnergyCost": 0,
+    "QueueLength": 0,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 35704,
+    "EventName": "BuildingConstructionQueued"
+  }, {
+    "PlayerIndex": 1,
+    "SquadId": "cov_veh_bruteChopper_01",
+    "InstanceId": 17,
+    "CreatorInstanceId": 6,
+    "SpawnLocation": {
+      "x": 396.999878,
+      "y": 113.75,
+      "z": 492.0231
+    },
+    "SupplyCost": 245,
+    "EnergyCost": 15,
+    "PopulationCost": 3,
+    "IsClone": false,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 38242,
+    "EventName": "UnitTrained"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 70,
+        "TotalSupply": 615.28857421875,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 9,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 61
+      },
+      "2": {
+        "Supply": 167,
+        "TotalSupply": 887.20440673828125,
+        "Energy": 185,
+        "TotalEnergy": 400.0,
+        "Population": 9,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 101
+      }
+    },
+    "TimeSinceStartMilliseconds": 40149,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 2,
+    "NewBuildingId": "unsc_bldg_supplypad_02",
+    "InstanceId": 13,
+    "SupplyCost": 0,
+    "EnergyCost": 200,
+    "TimeSinceStartMilliseconds": 41454,
+    "EventName": "BuildingUpgraded"
+  }, {
+    "PlayerIndex": 2,
+    "InstanceId": 14,
+    "TimeSinceStartMilliseconds": 42719,
+    "EventName": "BuildingConstructionCompleted"
+  }, {
+    "PlayerIndex": 2,
+    "BuildingId": "unsc_bldg_reactor_01",
+    "InstanceId": 18,
+    "Location": {
+      "x": 372.6824,
+      "y": 114.3125,
+      "z": 1070.46936
+    },
+    "SupplyCost": 200,
+    "EnergyCost": 0,
+    "QueueLength": 0,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 42906,
+    "EventName": "BuildingConstructionQueued"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 83,
+        "TotalSupply": 628.30206298828125,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 9,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 68
+      },
+      "2": {
+        "Supply": 42,
+        "TotalSupply": 962.5125732421875,
+        "Energy": 185,
+        "TotalEnergy": 400.0,
+        "Population": 9,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 188
+      }
+    },
+    "TimeSinceStartMilliseconds": 45127,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 96,
+        "TotalSupply": 641.3155517578125,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 9,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 75
+      },
+      "2": {
+        "Supply": 98,
+        "TotalSupply": 1018.2506713867187,
+        "Energy": 187,
+        "TotalEnergy": 402.3802490234375,
+        "Population": 9,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 195
+      }
+    },
+    "TimeSinceStartMilliseconds": 50157,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 1,
+    "SquadId": "cov_inf_generic_grunt",
+    "InstanceId": 19,
+    "CreatorInstanceId": 6,
+    "SpawnLocation": {
+      "x": 396.999878,
+      "y": 113.75,
+      "z": 492.0231
+    },
+    "SupplyCost": 100,
+    "EnergyCost": 0,
+    "PopulationCost": 2,
+    "IsClone": false,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 51222,
+    "EventName": "UnitTrained"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 109,
+        "TotalSupply": 654.32904052734375,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 11,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 82
+      },
+      "2": {
+        "Supply": 151,
+        "TotalSupply": 1071.300537109375,
+        "Energy": 207,
+        "TotalEnergy": 422.40234375,
+        "Population": 9,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 202
+      }
+    },
+    "TimeSinceStartMilliseconds": 55129,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 120,
+        "TotalSupply": 665.56365966796875,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 11,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 89
+      },
+      "2": {
+        "Supply": 204,
+        "TotalSupply": 1124.3494873046875,
+        "Energy": 227,
+        "TotalEnergy": 442.4244384765625,
+        "Population": 9,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 209
+      }
+    },
+    "TimeSinceStartMilliseconds": 60223,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 2,
+    "BuildingId": "unsc_bldg_supplypad_01",
+    "InstanceId": 20,
+    "Location": {
+      "x": 351.750153,
+      "y": 114.3125,
+      "z": 1049.90015
+    },
+    "SupplyCost": 150,
+    "EnergyCost": 0,
+    "QueueLength": 0,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 60927,
+    "EventName": "BuildingConstructionQueued"
+  }, {
+    "PlayerIndex": 2,
+    "InstanceId": 18,
+    "TimeSinceStartMilliseconds": 63021,
+    "EventName": "BuildingConstructionCompleted"
+  }, {
+    "PlayerIndex": 1,
+    "SquadId": "cov_inf_generic_grunt",
+    "InstanceId": 21,
+    "CreatorInstanceId": 6,
+    "SpawnLocation": {
+      "x": 396.999878,
+      "y": 113.75,
+      "z": 492.0231
+    },
+    "SupplyCost": 100,
+    "EnergyCost": 0,
+    "PopulationCost": 2,
+    "IsClone": false,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 64318,
+    "EventName": "UnitTrained"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 133,
+        "TotalSupply": 678.5771484375,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 13,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 96
+      },
+      "2": {
+        "Supply": 107,
+        "TotalSupply": 1177.3984375,
+        "Energy": 250,
+        "TotalEnergy": 465.75701904296875,
+        "Population": 9,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 256
+      }
+    },
+    "TimeSinceStartMilliseconds": 65208,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 2,
+    "InstanceId": 16,
+    "TimeSinceStartMilliseconds": 65724,
+    "EventName": "BuildingConstructionCompleted"
+  }, {
+    "PlayerIndex": 2,
+    "BuildingId": "unsc_bldg_supplypad_01",
+    "InstanceId": 22,
+    "Location": {
+      "x": 335.430573,
+      "y": 116.4375,
+      "z": 883.5105
+    },
+    "SupplyCost": 150,
+    "EnergyCost": 0,
+    "QueueLength": 0,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 68625,
+    "EventName": "BuildingConstructionQueued"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 146,
+        "TotalSupply": 691.59063720703125,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 13,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 103
+      },
+      "2": {
+        "Supply": 27,
+        "TotalSupply": 1247.8092041015625,
+        "Energy": 298,
+        "TotalEnergy": 513.3968505859375,
+        "Population": 9,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 323
+      }
+    },
+    "TimeSinceStartMilliseconds": 70203,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 159,
+        "TotalSupply": 704.6041259765625,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 13,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 110
+      },
+      "2": {
+        "Supply": 100,
+        "TotalSupply": 1320.8802490234375,
+        "Energy": 53,
+        "TotalEnergy": 568.4532470703125,
+        "Population": 9,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 330
+      }
+    },
+    "TimeSinceStartMilliseconds": 75220,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 1,
+    "SquadId": "cov_inf_generic_grunt",
+    "InstanceId": 23,
+    "CreatorInstanceId": 6,
+    "SpawnLocation": {
+      "x": 396.999878,
+      "y": 113.75,
+      "z": 492.0231
+    },
+    "SupplyCost": 100,
+    "EnergyCost": 0,
+    "PopulationCost": 2,
+    "IsClone": false,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 77345,
+    "EventName": "UnitTrained"
+  }, {
+    "PlayerIndex": 1,
+    "BuildingId": "cov_bldg_supplyDepot_01",
+    "InstanceId": 24,
+    "Location": {
+      "x": 380.930664,
+      "y": 113.75,
+      "z": 512.9702
+    },
+    "SupplyCost": 150,
+    "EnergyCost": 0,
+    "QueueLength": 0,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 78271,
+    "EventName": "BuildingConstructionQueued"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 20,
+        "TotalSupply": 715.74774169921875,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 15,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 117
+      },
+      "2": {
+        "Supply": 173,
+        "TotalSupply": 1393.411376953125,
+        "Energy": 86,
+        "TotalEnergy": 601.567626953125,
+        "Population": 9,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 337
+      }
+    },
+    "TimeSinceStartMilliseconds": 80029,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 2,
+    "InstanceId": 20,
+    "TimeSinceStartMilliseconds": 83025,
+    "EventName": "BuildingConstructionCompleted"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 33,
+        "TotalSupply": 728.76123046875,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 15,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 124
+      },
+      "2": {
+        "Supply": 253,
+        "TotalSupply": 1473.5191650390625,
+        "Energy": 121,
+        "TotalEnergy": 636.3218994140625,
+        "Population": 9,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 384
+      }
+    },
+    "TimeSinceStartMilliseconds": 85109,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 2,
+    "BuildingId": "unsc_bldg_fieldArmory_01",
+    "InstanceId": 25,
+    "Location": {
+      "x": 372.8177,
+      "y": 114.3125,
+      "z": 1029.4696
+    },
+    "SupplyCost": 100,
+    "EnergyCost": 50,
+    "QueueLength": 0,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 85515,
+    "EventName": "BuildingConstructionQueued"
+  }, {
+    "PlayerIndex": 2,
+    "InstanceId": 22,
+    "TimeSinceStartMilliseconds": 88656,
+    "EventName": "BuildingConstructionCompleted"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 46,
+        "TotalSupply": 741.77471923828125,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 15,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 132
+      },
+      "2": {
+        "Supply": 247,
+        "TotalSupply": 1567.537353515625,
+        "Energy": 106,
+        "TotalEnergy": 671.356201171875,
+        "Population": 9,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 432
+      }
+    },
+    "TimeSinceStartMilliseconds": 90005,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 55,
+        "TotalSupply": 750.0062255859375,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 15,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 139
+      },
+      "2": {
+        "Supply": 335,
+        "TotalSupply": 1654.9854736328125,
+        "Energy": 131,
+        "TotalEnergy": 696.609619140625,
+        "Population": 9,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 439
+      }
+    },
+    "TimeSinceStartMilliseconds": 95546,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 2,
+    "NewBuildingId": "unsc_bldg_reactor_02",
+    "InstanceId": 18,
+    "SupplyCost": 0,
+    "EnergyCost": 300,
+    "TimeSinceStartMilliseconds": 96496,
+    "EventName": "BuildingUpgraded"
+  }, {
+    "PlayerIndex": 2,
+    "BuildingId": "unsc_bldg_minibase2sock_01",
+    "InstanceId": 26,
+    "Location": {
+      "x": 1173.015,
+      "y": 46.5625,
+      "z": 769.082
+    },
+    "SupplyCost": 300,
+    "EnergyCost": 0,
+    "QueueLength": 0,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 96623,
+    "EventName": "BuildingConstructionQueued"
+  }, {
+    "PlayerIndex": 1,
+    "InstanceId": 24,
+    "TimeSinceStartMilliseconds": 98608,
+    "EventName": "BuildingConstructionCompleted"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 62,
+        "TotalSupply": 757.74774169921875,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 15,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 186
+      },
+      "2": {
+        "Supply": 119,
+        "TotalSupply": 1739.3331298828125,
+        "Energy": 160,
+        "TotalEnergy": 725.52178955078125,
+        "Population": 9,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 486
+      }
+    },
+    "TimeSinceStartMilliseconds": 100304,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 1,
+    "TechId": "cov_grunt_upgrade1",
+    "ResearcherInstanceId": 6,
+    "SupplyCost": 0,
+    "EnergyCost": 300,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 102398,
+    "EventName": "TechResearched"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 84,
+        "TotalSupply": 779.454345703125,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 15,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 233
+      },
+      "2": {
+        "Supply": 203,
+        "TotalSupply": 1823.6807861328125,
+        "Energy": 210,
+        "TotalEnergy": 775.5770263671875,
+        "Population": 9,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 493
+      }
+    },
+    "TimeSinceStartMilliseconds": 105205,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 2,
+    "InstanceId": 25,
+    "TimeSinceStartMilliseconds": 108627,
+    "EventName": "BuildingConstructionCompleted"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 106,
+        "TotalSupply": 801.16094970703125,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 15,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 240
+      },
+      "2": {
+        "Supply": 288,
+        "TotalSupply": 1908.0284423828125,
+        "Energy": 260,
+        "TotalEnergy": 825.63226318359375,
+        "Population": 9,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 540
+      }
+    },
+    "TimeSinceStartMilliseconds": 110192,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 127,
+        "TotalSupply": 822.8675537109375,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 15,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 247
+      },
+      "2": {
+        "Supply": 72,
+        "TotalSupply": 1992.3760986328125,
+        "Energy": 35,
+        "TotalEnergy": 875.6875,
+        "Population": 9,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 547
+      }
+    },
+    "TimeSinceStartMilliseconds": 115203,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "VictimPlayerIndex": 3,
+    "VictimObjectTypeId": "for_air_sentinel_01",
+    "VictimInstanceId": 27,
+    "VictimLocation": {
+      "x": 657.8014,
+      "y": 120.218651,
+      "z": 1063.99548
+    },
+    "IsSuicide": false,
+    "Participants": {
+      "2": {
+        "ObjectParticipants": {
+          "unsc_inf_generic_marine": {
+            "Count": 8,
+            "CombatStats": {
+              "63": {
+                "AttacksLanded": 63
+              }
+            }
+          }
+        }
+      }
+    },
+    "TimeSinceStartMilliseconds": 116608,
+    "EventName": "Death"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 149,
+        "TotalSupply": 844.57415771484375,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 15,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 254
+      },
+      "2": {
+        "Supply": 156,
+        "TotalSupply": 2076.7236328125,
+        "Energy": 85,
+        "TotalEnergy": 925.74273681640625,
+        "Population": 9,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 560
+      }
+    },
+    "TimeSinceStartMilliseconds": 120228,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 171,
+        "TotalSupply": 866.28076171875,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 15,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 261
+      },
+      "2": {
+        "Supply": 241,
+        "TotalSupply": 2161.0712890625,
+        "Energy": 135,
+        "TotalEnergy": 975.7979736328125,
+        "Population": 9,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 568
+      }
+    },
+    "TimeSinceStartMilliseconds": 125213,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 2,
+    "InstanceId": 26,
+    "TimeSinceStartMilliseconds": 126323,
+    "EventName": "BuildingConstructionCompleted"
+  }, {
+    "PlayerIndex": 2,
+    "PowerId": "UnscResearchAndDevelopment2_MP",
+    "CommandPointCost": 1,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 128526,
+    "EventName": "LeaderPowerUnlocked"
+  }, {
+    "PlayerIndex": 2,
+    "BuildingId": "unsc_bldg_barracks_01",
+    "InstanceId": 28,
+    "Location": {
+      "x": 1190.75378,
+      "y": 46.5625,
+      "z": 778.652
+    },
+    "SupplyCost": 150,
+    "EnergyCost": 0,
+    "QueueLength": 0,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 129214,
+    "EventName": "BuildingConstructionQueued"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 192,
+        "TotalSupply": 887.98736572265625,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 15,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 268
+      },
+      "2": {
+        "Supply": 25,
+        "TotalSupply": 2245.4189453125,
+        "Energy": 185,
+        "TotalEnergy": 1025.8529052734375,
+        "Population": 9,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 635
+      }
+    },
+    "TimeSinceStartMilliseconds": 130229,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "VictimPlayerIndex": 3,
+    "VictimObjectTypeId": "for_air_sentinel_01",
+    "VictimInstanceId": 29,
+    "VictimLocation": {
+      "x": 670.1524,
+      "y": 117.397827,
+      "z": 1087.60449
+    },
+    "IsSuicide": false,
+    "Participants": {
+      "2": {
+        "ObjectParticipants": {
+          "unsc_inf_generic_marine": {
+            "Count": 8,
+            "CombatStats": {
+              "63": {
+                "AttacksLanded": 66
+              }
+            }
+          }
+        }
+      }
+    },
+    "TimeSinceStartMilliseconds": 130714,
+    "EventName": "Death"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 214,
+        "TotalSupply": 909.6939697265625,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 15,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 275
+      },
+      "2": {
+        "Supply": 109,
+        "TotalSupply": 2329.7666015625,
+        "Energy": 235,
+        "TotalEnergy": 1075.8994140625,
+        "Population": 9,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 649
+      }
+    },
+    "TimeSinceStartMilliseconds": 135208,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 236,
+        "TotalSupply": 931.57415771484375,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 15,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 282
+      },
+      "2": {
+        "Supply": 194,
+        "TotalSupply": 2414.787109375,
+        "Energy": 274,
+        "TotalEnergy": 1114.2054443359375,
+        "Population": 9,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 656
+      }
+    },
+    "TimeSinceStartMilliseconds": 141022,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 2,
+    "SquadId": "unsc_inf_generic_marine",
+    "InstanceId": 11,
+    "TimeSinceStartMilliseconds": 142020,
+    "EventName": "UnitPromoted"
+  }, {
+    "PlayerIndex": 2,
+    "SquadId": "unsc_inf_generic_marine",
+    "InstanceId": 12,
+    "TimeSinceStartMilliseconds": 142020,
+    "EventName": "UnitPromoted"
+  }, {
+    "VictimPlayerIndex": 3,
+    "VictimObjectTypeId": "for_air_sentinel_01",
+    "VictimInstanceId": 30,
+    "VictimLocation": {
+      "x": 679.604553,
+      "y": 115.722206,
+      "z": 1092.349
+    },
+    "IsSuicide": false,
+    "Participants": {
+      "2": {
+        "ObjectParticipants": {
+          "unsc_inf_generic_marine": {
+            "Count": 8,
+            "CombatStats": {
+              "63": {
+                "AttacksLanded": 65
+              }
+            }
+          }
+        }
+      }
+    },
+    "TimeSinceStartMilliseconds": 142094,
+    "EventName": "Death"
+  }, {
+    "PlayerIndex": 2,
+    "SquadId": "unsc_inf_generic_marine",
+    "InstanceId": 31,
+    "CreatorInstanceId": 26,
+    "SpawnLocation": {
+      "x": 1173.015,
+      "y": 46.5625,
+      "z": 769.082
+    },
+    "SupplyCost": 150,
+    "EnergyCost": 0,
+    "PopulationCost": 3,
+    "IsClone": false,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 144882,
+    "EventName": "UnitTrained"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 258,
+        "TotalSupply": 953.326904296875,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 15,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 289
+      },
+      "2": {
+        "Supply": 279,
+        "TotalSupply": 2499.27001953125,
+        "Energy": 304,
+        "TotalEnergy": 1144.2972412109375,
+        "Population": 12,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 669
+      }
+    },
+    "TimeSinceStartMilliseconds": 145377,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 2,
+    "BuildingId": "unsc_bldg_supplypad_01",
+    "InstanceId": 32,
+    "Location": {
+      "x": 1190.26575,
+      "y": 46.5625,
+      "z": 758.657959
+    },
+    "SupplyCost": 150,
+    "EnergyCost": 0,
+    "QueueLength": 0,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 145578,
+    "EventName": "BuildingConstructionQueued"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 280,
+        "TotalSupply": 975.12030029296875,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 15,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 296
+      },
+      "2": {
+        "Supply": 64,
+        "TotalSupply": 2583.9541015625,
+        "Energy": 184,
+        "TotalEnergy": 1174.4417724609375,
+        "Population": 12,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 676
+      }
+    },
+    "TimeSinceStartMilliseconds": 150160,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 2,
+    "InstanceId": 28,
+    "TimeSinceStartMilliseconds": 153970,
+    "EventName": "BuildingConstructionCompleted"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 301,
+        "TotalSupply": 996.826904296875,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 15,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 303
+      },
+      "2": {
+        "Supply": 148,
+        "TotalSupply": 2668.3017578125,
+        "Energy": 214,
+        "TotalEnergy": 1204.4661865234375,
+        "Population": 12,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 723
+      }
+    },
+    "TimeSinceStartMilliseconds": 154986,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 2,
+    "SquadId": "unsc_inf_spartan_mpdoug_01",
+    "InstanceId": 33,
+    "CreatorInstanceId": 25,
+    "SpawnLocation": {
+      "x": 388.999969,
+      "y": 114.3125,
+      "z": 1050.02307
+    },
+    "SupplyCost": 300,
+    "EnergyCost": 275,
+    "PopulationCost": 0,
+    "IsClone": false,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 156879,
+    "EventName": "UnitTrained"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 323,
+        "TotalSupply": 1018.5335083007812,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 15,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 310
+      },
+      "2": {
+        "Supply": 157,
+        "TotalSupply": 2752.6494140625,
+        "Energy": 109,
+        "TotalEnergy": 1234.4906005859375,
+        "Population": 12,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 730
+      }
+    },
+    "TimeSinceStartMilliseconds": 160247,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 2,
+    "InstanceId": 3,
+    "CapturerInstanceId": 11,
+    "CapturerLocation": {
+      "x": 650.0185,
+      "y": 97.64038,
+      "z": 1067.5033
+    },
+    "NewOwningTeamId": 2,
+    "TimeSinceStartMilliseconds": 163810,
+    "EventName": "PointCaptured"
+  }, {
+    "PlayerIndex": 2,
+    "SquadId": "unsc_inf_generic_marine",
+    "InstanceId": 34,
+    "CreatorInstanceId": 26,
+    "SpawnLocation": {
+      "x": 1173.015,
+      "y": 46.5625,
+      "z": 769.082
+    },
+    "SupplyCost": 150,
+    "EnergyCost": 0,
+    "PopulationCost": 3,
+    "IsClone": false,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 164711,
+    "EventName": "UnitTrained"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 345,
+        "TotalSupply": 1040.24658203125,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 15,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 318
+      },
+      "2": {
+        "Supply": 242,
+        "TotalSupply": 2836.9970703125,
+        "Energy": 141,
+        "TotalEnergy": 1266.7196044921875,
+        "Population": 15,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 778
+      }
+    },
+    "TimeSinceStartMilliseconds": 165320,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "VictimPlayerIndex": 1,
+    "VictimObjectTypeId": "cov_veh_bruteChopper_01",
+    "VictimInstanceId": 17,
+    "VictimLocation": {
+      "x": 424.291626,
+      "y": 114.203476,
+      "z": 1014.42139
+    },
+    "IsSuicide": false,
+    "Participants": {
+      "2": {
+        "ObjectParticipants": {
+          "unsc_inf_spartan_mpdoug_01": {
+            "Count": 1,
+            "CombatStats": {
+              "89": {
+                "AttacksLanded": 17
+              }
+            }
+          }
+        }
+      }
+    },
+    "TimeSinceStartMilliseconds": 168822,
+    "EventName": "Death"
+  }, {
+    "PlayerIndex": 2,
+    "TechId": "unsc_spartan_upgrade1_rocket",
+    "ResearcherInstanceId": 25,
+    "SupplyCost": 0,
+    "EnergyCost": 150,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 169907,
+    "EventName": "TechResearched"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 366,
+        "TotalSupply": 1061.9619140625,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 12,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 328
+      },
+      "2": {
+        "Supply": 176,
+        "TotalSupply": 2921.3447265625,
+        "Energy": 179,
+        "TotalEnergy": 1304.2501220703125,
+        "Population": 15,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 832
+      }
+    },
+    "TimeSinceStartMilliseconds": 170313,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 2,
+    "InstanceId": 25,
+    "SupplyEarned": 50,
+    "EnergyEarned": 25,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 172524,
+    "EventName": "BuildingRecycled"
+  }, {
+    "PlayerIndex": 2,
+    "BuildingId": "unsc_bldg_barracks_01",
+    "InstanceId": 35,
+    "Location": {
+      "x": 372.8177,
+      "y": 114.3125,
+      "z": 1029.4696
+    },
+    "SupplyCost": 150,
+    "EnergyCost": 0,
+    "QueueLength": 0,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 173712,
+    "EventName": "BuildingConstructionQueued"
+  }, {
+    "PlayerIndex": 2,
+    "InstanceId": 32,
+    "TimeSinceStartMilliseconds": 174305,
+    "EventName": "BuildingConstructionCompleted"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 388,
+        "TotalSupply": 1083.67724609375,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 12,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 335
+      },
+      "2": {
+        "Supply": 163,
+        "TotalSupply": 3008.389892578125,
+        "Energy": 241,
+        "TotalEnergy": 1341.7806396484375,
+        "Population": 15,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 879
+      }
+    },
+    "TimeSinceStartMilliseconds": 175303,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "VictimPlayerIndex": 1,
+    "VictimObjectTypeId": "cov_inf_generic_grunt",
+    "VictimInstanceId": 19,
+    "VictimLocation": {
+      "x": 412.393219,
+      "y": 114.3125,
+      "z": 1051.13953
+    },
+    "IsSuicide": false,
+    "Participants": {
+      "2": {
+        "ObjectParticipants": {
+          "unsc_inf_spartan_mpdoug_01": {
+            "Count": 1,
+            "CombatStats": {
+              "89": {
+                "AttacksLanded": 15
+              }
+            }
+          }
+        }
+      }
+    },
+    "TimeSinceStartMilliseconds": 176412,
+    "EventName": "Death"
+  }, {
+    "PlayerIndex": 2,
+    "SquadId": "unsc_inf_sniper_01",
+    "InstanceId": 36,
+    "CreatorInstanceId": 28,
+    "SpawnLocation": {
+      "x": 1173.015,
+      "y": 46.5625,
+      "z": 769.082
+    },
+    "SupplyCost": 75,
+    "EnergyCost": 135,
+    "PopulationCost": 3,
+    "IsClone": false,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 178815,
+    "EventName": "UnitTrained"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 410,
+        "TotalSupply": 1105.392578125,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 10,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 345
+      },
+      "2": {
+        "Supply": 261,
+        "TotalSupply": 3106.0390625,
+        "Energy": 279,
+        "TotalEnergy": 1379.3111572265625,
+        "Population": 18,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 892
+      }
+    },
+    "TimeSinceStartMilliseconds": 180315,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 1,
+    "BuildingId": "cov_bldg_turret_01",
+    "InstanceId": 37,
+    "Location": {
+      "x": 412.912323,
+      "y": 113.75,
+      "z": 518.575745
+    },
+    "SupplyCost": 300,
+    "EnergyCost": 0,
+    "QueueLength": 0,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 180909,
+    "EventName": "BuildingConstructionQueued"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 132,
+        "TotalSupply": 1127.10791015625,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 10,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 352
+      },
+      "2": {
+        "Supply": 358,
+        "TotalSupply": 3203.688232421875,
+        "Energy": 316,
+        "TotalEnergy": 1416.8416748046875,
+        "Population": 18,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 899
+      }
+    },
+    "TimeSinceStartMilliseconds": 185294,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 2,
+    "SquadId": "unsc_inf_generic_marine",
+    "InstanceId": 38,
+    "CreatorInstanceId": 26,
+    "SpawnLocation": {
+      "x": 1173.015,
+      "y": 46.5625,
+      "z": 769.082
+    },
+    "SupplyCost": 150,
+    "EnergyCost": 0,
+    "PopulationCost": 3,
+    "IsClone": false,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 187123,
+    "EventName": "UnitTrained"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 53,
+        "TotalSupply": 1148.8232421875,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 10,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 359
+      },
+      "2": {
+        "Supply": 76,
+        "TotalSupply": 3301.33740234375,
+        "Energy": 314,
+        "TotalEnergy": 1454.3721923828125,
+        "Population": 21,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 906
+      }
+    },
+    "TimeSinceStartMilliseconds": 190295,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 75,
+        "TotalSupply": 1170.53857421875,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 10,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 366
+      },
+      "2": {
+        "Supply": 174,
+        "TotalSupply": 3398.986572265625,
+        "Energy": 351,
+        "TotalEnergy": 1491.9027099609375,
+        "Population": 21,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 913
+      }
+    },
+    "TimeSinceStartMilliseconds": 195311,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 2,
+    "InstanceId": 35,
+    "TimeSinceStartMilliseconds": 199215,
+    "EventName": "BuildingConstructionCompleted"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 97,
+        "TotalSupply": 1192.339111328125,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 10,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 373
+      },
+      "2": {
+        "Supply": 272,
+        "TotalSupply": 3497.0322265625,
+        "Energy": 389,
+        "TotalEnergy": 1529.5858154296875,
+        "Population": 21,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 960
+      }
+    },
+    "TimeSinceStartMilliseconds": 200699,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 1,
+    "SquadId": "cov_inf_generic_grunt",
+    "InstanceId": 39,
+    "CreatorInstanceId": 6,
+    "SpawnLocation": {
+      "x": 396.999878,
+      "y": 113.75,
+      "z": 492.0231
+    },
+    "SupplyCost": 100,
+    "EnergyCost": 0,
+    "PopulationCost": 2,
+    "IsClone": false,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 200903,
+    "EventName": "UnitTrained"
+  }, {
+    "PlayerIndex": 2,
+    "SquadId": "unsc_inf_flameMarine_01",
+    "InstanceId": 40,
+    "CreatorInstanceId": 28,
+    "SpawnLocation": {
+      "x": 1173.015,
+      "y": 46.5625,
+      "z": 769.082
+    },
+    "SupplyCost": 80,
+    "EnergyCost": 40,
+    "PopulationCost": 3,
+    "IsClone": false,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 202215,
+    "EventName": "UnitTrained"
+  }, {
+    "PlayerIndex": 2,
+    "SquadId": "unsc_inf_generic_marine",
+    "InstanceId": 41,
+    "CreatorInstanceId": 16,
+    "SpawnLocation": {
+      "x": 344.6536,
+      "y": 116.4375,
+      "z": 898.3828
+    },
+    "SupplyCost": 150,
+    "EnergyCost": 0,
+    "PopulationCost": 3,
+    "IsClone": false,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 204997,
+    "EventName": "UnitTrained"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 119,
+        "TotalSupply": 1214.0966796875,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 12,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 380
+      },
+      "2": {
+        "Supply": 370,
+        "TotalSupply": 3594.881103515625,
+        "Energy": 427,
+        "TotalEnergy": 1567.1932373046875,
+        "Population": 27,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 968
+      }
+    },
+    "TimeSinceStartMilliseconds": 205700,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 2,
+    "SquadId": "unsc_inf_generic_marine",
+    "InstanceId": 42,
+    "CreatorInstanceId": 26,
+    "SpawnLocation": {
+      "x": 1173.015,
+      "y": 46.5625,
+      "z": 769.082
+    },
+    "SupplyCost": 150,
+    "EnergyCost": 0,
+    "PopulationCost": 3,
+    "IsClone": false,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 206446,
+    "EventName": "UnitTrained"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 140,
+        "TotalSupply": 1235.81201171875,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 12,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 388
+      },
+      "2": {
+        "Supply": 467,
+        "TotalSupply": 3692.5302734375,
+        "Energy": 464,
+        "TotalEnergy": 1604.7237548828125,
+        "Population": 30,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 976
+      }
+    },
+    "TimeSinceStartMilliseconds": 210312,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 1,
+    "BuildingId": "cov_bldg_watchtower_01",
+    "InstanceId": 43,
+    "Location": {
+      "x": 413.087219,
+      "y": 113.75,
+      "z": 465.57605
+    },
+    "SupplyCost": 100,
+    "EnergyCost": 0,
+    "QueueLength": 0,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 212513,
+    "EventName": "BuildingConstructionQueued"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 62,
+        "TotalSupply": 1257.52734375,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 12,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 395
+      },
+      "2": {
+        "Supply": 565,
+        "TotalSupply": 3790.179443359375,
+        "Energy": 502,
+        "TotalEnergy": 1642.2542724609375,
+        "Population": 30,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 983
+      }
+    },
+    "TimeSinceStartMilliseconds": 215203,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 1,
+    "InstanceId": 37,
+    "TimeSinceStartMilliseconds": 216726,
+    "EventName": "BuildingConstructionCompleted"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 84,
+        "TotalSupply": 1279.24267578125,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 12,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 442
+      },
+      "2": {
+        "Supply": 663,
+        "TotalSupply": 3887.82861328125,
+        "Energy": 539,
+        "TotalEnergy": 1679.7847900390625,
+        "Population": 30,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 990
+      }
+    },
+    "TimeSinceStartMilliseconds": 220848,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "VictimPlayerIndex": 2,
+    "VictimObjectTypeId": "unsc_veh_mongoose_01",
+    "VictimInstanceId": 15,
+    "VictimLocation": {
+      "x": 423.463562,
+      "y": 113.597168,
+      "z": 475.694458
+    },
+    "IsSuicide": false,
+    "Participants": {
+      "1": {
+        "ObjectParticipants": {
+          "cov_inf_generic_grunt": {
+            "Count": 5,
+            "CombatStats": {
+              "63": {
+                "AttacksLanded": 53
+              }
+            }
+          },
+          "cov_bldg_turret_01": {
+            "Count": 1,
+            "CombatStats": {
+              "54": {
+                "AttacksLanded": 22
+              }
+            }
+          }
+        }
+      }
+    },
+    "TimeSinceStartMilliseconds": 222221,
+    "EventName": "Death"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 105,
+        "TotalSupply": 1301.02099609375,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 12,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 456
+      },
+      "2": {
+        "Supply": 761,
+        "TotalSupply": 3985.77880859375,
+        "Energy": 577,
+        "TotalEnergy": 1717.4312744140625,
+        "Population": 27,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 1000
+      }
+    },
+    "TimeSinceStartMilliseconds": 226030,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 127,
+        "TotalSupply": 1322.754150390625,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 12,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 463
+      },
+      "2": {
+        "Supply": 399,
+        "TotalSupply": 4083.541015625,
+        "Energy": 335,
+        "TotalEnergy": 1755.0057373046875,
+        "Population": 27,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 1007
+      }
+    },
+    "TimeSinceStartMilliseconds": 231010,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 149,
+        "TotalSupply": 1344.6380615234375,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 12,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 471
+      },
+      "2": {
+        "Supply": 497,
+        "TotalSupply": 4182.04443359375,
+        "Energy": 372,
+        "TotalEnergy": 1792.844482421875,
+        "Population": 27,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 1015
+      }
+    },
+    "TimeSinceStartMilliseconds": 236009,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 1,
+    "InstanceId": 43,
+    "TimeSinceStartMilliseconds": 237623,
+    "EventName": "BuildingConstructionCompleted"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 171,
+        "TotalSupply": 1366.349365234375,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 12,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 478
+      },
+      "2": {
+        "Supply": 365,
+        "TotalSupply": 4279.75537109375,
+        "Energy": 370,
+        "TotalEnergy": 1830.3817138671875,
+        "Population": 27,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 1022
+      }
+    },
+    "TimeSinceStartMilliseconds": 240516,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 2,
+    "SquadId": "unsc_inf_flameMarine_01",
+    "InstanceId": 44,
+    "CreatorInstanceId": 28,
+    "SpawnLocation": {
+      "x": 1173.015,
+      "y": 46.5625,
+      "z": 769.082
+    },
+    "SupplyCost": 80,
+    "EnergyCost": 40,
+    "PopulationCost": 3,
+    "IsClone": false,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 242220,
+    "EventName": "UnitTrained"
+  }, {
+    "PlayerIndex": 2,
+    "TechId": "unsc_marine_upgrade1",
+    "ResearcherInstanceId": 10,
+    "SupplyCost": 0,
+    "EnergyCost": 200,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 242923,
+    "EventName": "TechResearched"
+  }, {
+    "PlayerIndex": 2,
+    "SquadId": "unsc_inf_flameMarine_01",
+    "InstanceId": 45,
+    "CreatorInstanceId": 35,
+    "SpawnLocation": {
+      "x": 388.999969,
+      "y": 114.3125,
+      "z": 1050.02319
+    },
+    "SupplyCost": 80,
+    "EnergyCost": 40,
+    "PopulationCost": 3,
+    "IsClone": false,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 243111,
+    "EventName": "UnitTrained"
+  }, {
+    "PlayerIndex": 2,
+    "SquadId": "unsc_inf_generic_marine",
+    "InstanceId": 46,
+    "CreatorInstanceId": 16,
+    "SpawnLocation": {
+      "x": 344.6536,
+      "y": 116.4375,
+      "z": 898.3828
+    },
+    "SupplyCost": 150,
+    "EnergyCost": 0,
+    "PopulationCost": 3,
+    "IsClone": false,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 245127,
+    "EventName": "UnitTrained"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 192,
+        "TotalSupply": 1388.064697265625,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 12,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 486
+      },
+      "2": {
+        "Supply": 463,
+        "TotalSupply": 4377.36962890625,
+        "Energy": 407,
+        "TotalEnergy": 1867.9122314453125,
+        "Population": 36,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 1069
+      }
+    },
+    "TimeSinceStartMilliseconds": 245471,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 2,
+    "SquadId": "unsc_inf_generic_marine",
+    "InstanceId": 47,
+    "CreatorInstanceId": 26,
+    "SpawnLocation": {
+      "x": 1173.015,
+      "y": 46.5625,
+      "z": 769.082
+    },
+    "SupplyCost": 150,
+    "EnergyCost": 0,
+    "PopulationCost": 3,
+    "IsClone": false,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 245837,
+    "EventName": "UnitTrained"
+  }, {
+    "VictimPlayerIndex": 2,
+    "VictimObjectTypeId": "unsc_inf_generic_marine",
+    "VictimInstanceId": 12,
+    "VictimLocation": {
+      "x": 446.475464,
+      "y": 115.25,
+      "z": 529.2279
+    },
+    "IsSuicide": false,
+    "Participants": {
+      "1": {
+        "ObjectParticipants": {
+          "cov_inf_generic_grunt": {
+            "Count": 6,
+            "CombatStats": {
+              "63": {
+                "AttacksLanded": 54
+              }
+            }
+          },
+          "cov_bldg_turret_01": {
+            "Count": 1,
+            "CombatStats": {
+              "54": {
+                "AttacksLanded": 61
+              }
+            }
+          }
+        }
+      }
+    },
+    "TimeSinceStartMilliseconds": 247822,
+    "EventName": "Death"
+  }, {
+    "PlayerIndex": 1,
+    "SquadId": "cov_inf_generic_grunt",
+    "InstanceId": 39,
+    "TimeSinceStartMilliseconds": 247822,
+    "EventName": "UnitPromoted"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 214,
+        "TotalSupply": 1409.780029296875,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 12,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 501
+      },
+      "2": {
+        "Supply": 560,
+        "TotalSupply": 4474.98388671875,
+        "Energy": 445,
+        "TotalEnergy": 1905.4427490234375,
+        "Population": 36,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 1081
+      }
+    },
+    "TimeSinceStartMilliseconds": 250715,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 1,
+    "PowerId": "CovResourceControl",
+    "CommandPointCost": 1,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 252621,
+    "EventName": "LeaderPowerUnlocked"
+  }, {
+    "VictimPlayerIndex": 1,
+    "VictimObjectTypeId": "cov_inf_generic_grunt",
+    "VictimInstanceId": 39,
+    "VictimLocation": {
+      "x": 439.491852,
+      "y": 114.952362,
+      "z": 506.627167
+    },
+    "IsSuicide": false,
+    "Participants": {
+      "2": {
+        "ObjectParticipants": {
+          "unsc_inf_generic_marine": {
+            "Count": 12,
+            "CombatStats": {
+              "63": {
+                "AttacksLanded": 50
+              }
+            }
+          },
+          "unsc_inf_sniper_01": {
+            "Count": 1,
+            "CombatStats": {
+              "59": {
+                "AttacksLanded": 4
+              }
+            }
+          }
+        }
+      }
+    },
+    "TimeSinceStartMilliseconds": 254402,
+    "EventName": "Death"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 236,
+        "TotalSupply": 1431.482177734375,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 10,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 511
+      },
+      "2": {
+        "Supply": 578,
+        "TotalSupply": 4572.541015625,
+        "Energy": 443,
+        "TotalEnergy": 1942.950927734375,
+        "Population": 36,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 1097
+      }
+    },
+    "TimeSinceStartMilliseconds": 255606,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 2,
+    "SquadId": "unsc_inf_flameMarine_01",
+    "InstanceId": 48,
+    "CreatorInstanceId": 35,
+    "SpawnLocation": {
+      "x": 388.999969,
+      "y": 114.3125,
+      "z": 1050.02319
+    },
+    "SupplyCost": 80,
+    "EnergyCost": 40,
+    "PopulationCost": 3,
+    "IsClone": false,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 257622,
+    "EventName": "UnitTrained"
+  }, {
+    "VictimPlayerIndex": 1,
+    "VictimObjectTypeId": "cov_bldg_turret_01",
+    "VictimInstanceId": 49,
+    "VictimLocation": {
+      "x": 412.912323,
+      "y": 113.75,
+      "z": 518.575745
+    },
+    "IsSuicide": false,
+    "Participants": {
+      "2": {
+        "ObjectParticipants": {
+          "unsc_veh_mongoose_01": {
+            "Count": 1,
+            "CombatStats": {
+              "65": {
+                "AttacksLanded": 4
+              }
+            }
+          },
+          "unsc_inf_generic_marine": {
+            "Count": 17,
+            "CombatStats": {
+              "63": {
+                "AttacksLanded": 174
+              },
+              "77": {
+                "AttacksLanded": 5
+              }
+            }
+          },
+          "unsc_inf_spartan_mpdoug_01": {
+            "Count": 1,
+            "CombatStats": {
+              "89": {
+                "AttacksLanded": 36
+              }
+            }
+          }
+        }
+      }
+    },
+    "TimeSinceStartMilliseconds": 259715,
+    "EventName": "Death"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 58,
+        "TotalSupply": 1453.193115234375,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 10,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 531
+      },
+      "2": {
+        "Supply": 446,
+        "TotalSupply": 4670.13623046875,
+        "Energy": 440,
+        "TotalEnergy": 1980.4739990234375,
+        "Population": 39,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 1156
+      }
+    },
+    "TimeSinceStartMilliseconds": 260825,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 2,
+    "SquadId": "unsc_inf_generic_marine",
+    "InstanceId": 50,
+    "CreatorInstanceId": 10,
+    "SpawnLocation": {
+      "x": 388.999969,
+      "y": 114.3125,
+      "z": 1050.02307
+    },
+    "SupplyCost": 150,
+    "EnergyCost": 0,
+    "PopulationCost": 3,
+    "IsClone": false,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 261200,
+    "EventName": "UnitTrained"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 79,
+        "TotalSupply": 1474.908447265625,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 10,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 538
+      },
+      "2": {
+        "Supply": 543,
+        "TotalSupply": 4767.75048828125,
+        "Energy": 478,
+        "TotalEnergy": 2018.0045166015625,
+        "Population": 42,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 1164
+      }
+    },
+    "TimeSinceStartMilliseconds": 265703,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "VictimPlayerIndex": 1,
+    "VictimObjectTypeId": "cov_inf_generic_grunt",
+    "VictimInstanceId": 8,
+    "VictimLocation": {
+      "x": 436.697479,
+      "y": 114.481094,
+      "z": 1054.961
+    },
+    "IsSuicide": false,
+    "Participants": {
+      "2": {
+        "ObjectParticipants": {
+          "unsc_inf_generic_marine": {
+            "Count": 9,
+            "CombatStats": {
+              "63": {
+                "AttacksLanded": 24
+              },
+              "77": {
+                "AttacksLanded": 3
+              }
+            }
+          },
+          "unsc_inf_spartan_mpdoug_01": {
+            "Count": 1,
+            "CombatStats": {
+              "89": {
+                "AttacksLanded": 2
+              }
+            }
+          },
+          "unsc_inf_flameMarine_01": {
+            "Count": 6,
+            "CombatStats": {
+              "61": {
+                "AttacksLanded": 16
+              }
+            }
+          }
+        }
+      }
+    },
+    "TimeSinceStartMilliseconds": 267157,
+    "EventName": "Death"
+  }, {
+    "VictimPlayerIndex": 1,
+    "VictimObjectTypeId": "cov_inf_generic_grunt",
+    "VictimInstanceId": 7,
+    "VictimLocation": {
+      "x": 437.384125,
+      "y": 114.52401,
+      "z": 1060.846
+    },
+    "IsSuicide": false,
+    "Participants": {
+      "2": {
+        "ObjectParticipants": {
+          "unsc_inf_generic_marine": {
+            "Count": 9,
+            "CombatStats": {
+              "63": {
+                "AttacksLanded": 17
+              },
+              "77": {
+                "AttacksLanded": 5
+              }
+            }
+          },
+          "unsc_inf_flameMarine_01": {
+            "Count": 6,
+            "CombatStats": {
+              "61": {
+                "AttacksLanded": 41
+              }
+            }
+          }
+        }
+      }
+    },
+    "TimeSinceStartMilliseconds": 268422,
+    "EventName": "Death"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 101,
+        "TotalSupply": 1496.623779296875,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 6,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 551
+      },
+      "2": {
+        "Supply": 641,
+        "TotalSupply": 4865.36474609375,
+        "Energy": 515,
+        "TotalEnergy": 2055.53515625,
+        "Population": 42,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 1183
+      }
+    },
+    "TimeSinceStartMilliseconds": 270546,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 2,
+    "SquadId": "unsc_inf_flameMarine_01",
+    "InstanceId": 51,
+    "CreatorInstanceId": 28,
+    "SpawnLocation": {
+      "x": 1173.015,
+      "y": 46.5625,
+      "z": 769.082
+    },
+    "SupplyCost": 80,
+    "EnergyCost": 40,
+    "PopulationCost": 3,
+    "IsClone": false,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 271059,
+    "EventName": "UnitTrained"
+  }, {
+    "PlayerIndex": 2,
+    "SquadId": "unsc_inf_flameMarine_01",
+    "InstanceId": 52,
+    "CreatorInstanceId": 35,
+    "SpawnLocation": {
+      "x": 388.999969,
+      "y": 114.3125,
+      "z": 1050.02319
+    },
+    "SupplyCost": 80,
+    "EnergyCost": 40,
+    "PopulationCost": 3,
+    "IsClone": false,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 271267,
+    "EventName": "UnitTrained"
+  }, {
+    "PlayerIndex": 1,
+    "SquadId": "cov_inf_generic_grunt",
+    "InstanceId": 53,
+    "CreatorInstanceId": 6,
+    "SpawnLocation": {
+      "x": 396.999878,
+      "y": 113.75,
+      "z": 492.0231
+    },
+    "SupplyCost": 100,
+    "EnergyCost": 0,
+    "PopulationCost": 2,
+    "IsClone": false,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 273118,
+    "EventName": "UnitTrained"
+  }, {
+    "PlayerIndex": 2,
+    "SquadId": "unsc_inf_generic_marine",
+    "InstanceId": 54,
+    "CreatorInstanceId": 26,
+    "SpawnLocation": {
+      "x": 1173.015,
+      "y": 46.5625,
+      "z": 769.082
+    },
+    "SupplyCost": 150,
+    "EnergyCost": 0,
+    "PopulationCost": 3,
+    "IsClone": false,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 274517,
+    "EventName": "UnitTrained"
+  }, {
+    "VictimPlayerIndex": 1,
+    "VictimObjectTypeId": "cov_inf_generic_grunt",
+    "VictimInstanceId": 21,
+    "VictimLocation": {
+      "x": 468.95224,
+      "y": 116.253746,
+      "z": 1064.94409
+    },
+    "IsSuicide": false,
+    "Participants": {
+      "2": {
+        "ObjectParticipants": {
+          "unsc_inf_generic_marine": {
+            "Count": 9,
+            "CombatStats": {
+              "63": {
+                "AttacksLanded": 41
+              }
+            }
+          },
+          "unsc_inf_flameMarine_01": {
+            "Count": 5,
+            "CombatStats": {
+              "61": {
+                "AttacksLanded": 42
+              }
+            }
+          }
+        }
+      }
+    },
+    "TimeSinceStartMilliseconds": 274891,
+    "EventName": "Death"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 123,
+        "TotalSupply": 1518.339111328125,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 6,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 561
+      },
+      "2": {
+        "Supply": 739,
+        "TotalSupply": 4962.97900390625,
+        "Energy": 553,
+        "TotalEnergy": 2093.065673828125,
+        "Population": 51,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 1198
+      }
+    },
+    "TimeSinceStartMilliseconds": 275391,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "VictimPlayerIndex": 1,
+    "VictimObjectTypeId": "cov_inf_generic_grunt",
+    "VictimInstanceId": 9,
+    "VictimLocation": {
+      "x": 469.831482,
+      "y": 117.015472,
+      "z": 1057.73022
+    },
+    "IsSuicide": false,
+    "Participants": {
+      "2": {
+        "ObjectParticipants": {
+          "unsc_inf_generic_marine": {
+            "Count": 8,
+            "CombatStats": {
+              "63": {
+                "AttacksLanded": 20
+              },
+              "77": {
+                "AttacksLanded": 3
+              }
+            }
+          },
+          "unsc_inf_flameMarine_01": {
+            "Count": 6,
+            "CombatStats": {
+              "61": {
+                "AttacksLanded": 49
+              }
+            }
+          }
+        }
+      }
+    },
+    "TimeSinceStartMilliseconds": 275719,
+    "EventName": "Death"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 144,
+        "TotalSupply": 1540.054443359375,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 4,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 571
+      },
+      "2": {
+        "Supply": 757,
+        "TotalSupply": 5060.59326171875,
+        "Energy": 550,
+        "TotalEnergy": 2130.59619140625,
+        "Population": 51,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 1211
+      }
+    },
+    "TimeSinceStartMilliseconds": 280421,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 166,
+        "TotalSupply": 1561.769775390625,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 4,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 578
+      },
+      "2": {
+        "Supply": 624,
+        "TotalSupply": 5158.20751953125,
+        "Energy": 548,
+        "TotalEnergy": 2168.126708984375,
+        "Population": 51,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 1220
+      }
+    },
+    "TimeSinceStartMilliseconds": 285415,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 1,
+    "SquadId": "cov_inf_generic_grunt",
+    "InstanceId": 55,
+    "CreatorInstanceId": 6,
+    "SpawnLocation": {
+      "x": 396.999878,
+      "y": 113.75,
+      "z": 492.0231
+    },
+    "SupplyCost": 100,
+    "EnergyCost": 0,
+    "PopulationCost": 2,
+    "IsClone": false,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 286103,
+    "EventName": "UnitTrained"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 188,
+        "TotalSupply": 1583.485107421875,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 6,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 585
+      },
+      "2": {
+        "Supply": 722,
+        "TotalSupply": 5255.82177734375,
+        "Energy": 585,
+        "TotalEnergy": 2205.6572265625,
+        "Population": 51,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 1229
+      }
+    },
+    "TimeSinceStartMilliseconds": 290616,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 2,
+    "SquadId": "unsc_inf_flameMarine_01",
+    "InstanceId": 56,
+    "CreatorInstanceId": 35,
+    "SpawnLocation": {
+      "x": 388.999969,
+      "y": 114.3125,
+      "z": 1050.02319
+    },
+    "SupplyCost": 80,
+    "EnergyCost": 40,
+    "PopulationCost": 3,
+    "IsClone": false,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 293798,
+    "EventName": "UnitTrained"
+  }, {
+    "VictimPlayerIndex": 1,
+    "VictimObjectTypeId": "cov_inf_generic_grunt",
+    "VictimInstanceId": 53,
+    "VictimLocation": {
+      "x": 442.035156,
+      "y": 115.1875,
+      "z": 511.31134
+    },
+    "IsSuicide": false,
+    "Participants": {
+      "2": {
+        "ObjectParticipants": {
+          "unsc_inf_sniper_01": {
+            "Count": 1,
+            "CombatStats": {
+              "59": {
+                "AttacksLanded": 5
+              }
+            }
+          },
+          "unsc_inf_generic_marine": {
+            "Count": 2,
+            "CombatStats": {
+              "63": {
+                "AttacksLanded": 3
+              }
+            }
+          }
+        }
+      }
+    },
+    "TimeSinceStartMilliseconds": 294613,
+    "EventName": "Death"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 209,
+        "TotalSupply": 1605.200439453125,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 4,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 1,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 595
+      },
+      "2": {
+        "Supply": 820,
+        "TotalSupply": 5353.43603515625,
+        "Energy": 623,
+        "TotalEnergy": 2243.187744140625,
+        "Population": 54,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 1243
+      }
+    },
+    "TimeSinceStartMilliseconds": 295614,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 2,
+    "SquadId": "unsc_inf_flameMarine_01",
+    "InstanceId": 57,
+    "CreatorInstanceId": 28,
+    "SpawnLocation": {
+      "x": 1173.015,
+      "y": 46.5625,
+      "z": 769.082
+    },
+    "SupplyCost": 80,
+    "EnergyCost": 40,
+    "PopulationCost": 3,
+    "IsClone": false,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 295755,
+    "EventName": "UnitTrained"
+  }, {
+    "PlayerIndex": 2,
+    "SquadId": "unsc_inf_generic_marine",
+    "InstanceId": 58,
+    "CreatorInstanceId": 26,
+    "SpawnLocation": {
+      "x": 1173.015,
+      "y": 46.5625,
+      "z": 769.082
+    },
+    "SupplyCost": 150,
+    "EnergyCost": 0,
+    "PopulationCost": 3,
+    "IsClone": false,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 299208,
+    "EventName": "UnitTrained"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 231,
+        "TotalSupply": 1626.915771484375,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 4,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 603
+      },
+      "2": {
+        "Supply": 917,
+        "TotalSupply": 5451.05029296875,
+        "Energy": 660,
+        "TotalEnergy": 2280.71826171875,
+        "Population": 60,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 1252
+      }
+    },
+    "TimeSinceStartMilliseconds": 300612,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 253,
+        "TotalSupply": 1648.631103515625,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 4,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 610
+      },
+      "2": {
+        "Supply": 1015,
+        "TotalSupply": 5548.66455078125,
+        "Energy": 698,
+        "TotalEnergy": 2318.248779296875,
+        "Population": 60,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 1261
+      }
+    },
+    "TimeSinceStartMilliseconds": 305601,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "VictimPlayerIndex": 1,
+    "VictimObjectTypeId": "cov_inf_generic_grunt",
+    "VictimInstanceId": 55,
+    "VictimLocation": {
+      "x": 435.552032,
+      "y": 114.640839,
+      "z": 511.8509
+    },
+    "IsSuicide": false,
+    "Participants": {
+      "2": {
+        "ObjectParticipants": {
+          "unsc_inf_sniper_01": {
+            "Count": 1,
+            "CombatStats": {
+              "59": {
+                "AttacksLanded": 3
+              }
+            }
+          },
+          "unsc_inf_generic_marine": {
+            "Count": 7,
+            "CombatStats": {
+              "63": {
+                "AttacksLanded": 33
+              }
+            }
+          },
+          "unsc_inf_flameMarine_01": {
+            "Count": 3,
+            "CombatStats": {
+              "61": {
+                "AttacksLanded": 15
+              }
+            }
+          }
+        }
+      }
+    },
+    "TimeSinceStartMilliseconds": 306305,
+    "EventName": "Death"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 275,
+        "TotalSupply": 1670.47607421875,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 2,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 620
+      },
+      "2": {
+        "Supply": 1113,
+        "TotalSupply": 5646.87646484375,
+        "Energy": 736,
+        "TotalEnergy": 2356.00390625,
+        "Population": 60,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 1275
+      }
+    },
+    "TimeSinceStartMilliseconds": 310999,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 1,
+    "BuildingId": "cov_bldg_minibase1sock_01",
+    "InstanceId": 59,
+    "Location": {
+      "x": 628.2941,
+      "y": 83.125,
+      "z": 768.3267
+    },
+    "SupplyCost": 200,
+    "EnergyCost": 0,
+    "QueueLength": 0,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 315948,
+    "EventName": "BuildingConstructionQueued"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 96,
+        "TotalSupply": 1692.2099609375,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 2,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 627
+      },
+      "2": {
+        "Supply": 1211,
+        "TotalSupply": 5744.66357421875,
+        "Energy": 773,
+        "TotalEnergy": 2393.56982421875,
+        "Population": 60,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 1284
+      }
+    },
+    "TimeSinceStartMilliseconds": 316261,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 118,
+        "TotalSupply": 1713.941650390625,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 2,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 634
+      },
+      "2": {
+        "Supply": 1309,
+        "TotalSupply": 5842.50341796875,
+        "Energy": 811,
+        "TotalEnergy": 2431.13427734375,
+        "Population": 60,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 0,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 1292
+      }
+    },
+    "TimeSinceStartMilliseconds": 321308,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 40,
+        "TotalSupply": 1735.8037109375,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 2,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 641
+      },
+      "2": {
+        "Supply": 1407,
+        "TotalSupply": 5940.92333984375,
+        "Energy": 849,
+        "TotalEnergy": 2468.923828125,
+        "Population": 60,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 3,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 1301
+      }
+    },
+    "TimeSinceStartMilliseconds": 326230,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "VictimPlayerIndex": 1,
+    "VictimObjectTypeId": "cov_bldg_supplyDepot_01",
+    "VictimInstanceId": 60,
+    "VictimLocation": {
+      "x": 380.930664,
+      "y": 113.75,
+      "z": 512.9702
+    },
+    "IsSuicide": false,
+    "Participants": {
+      "2": {
+        "ObjectParticipants": {
+          "unsc_veh_mongoose_01": {
+            "Count": 1,
+            "CombatStats": {
+              "65": {
+                "AttacksLanded": 4
+              }
+            }
+          },
+          "unsc_inf_generic_marine": {
+            "Count": 11,
+            "CombatStats": {
+              "63": {
+                "AttacksLanded": 36
+              }
+            }
+          },
+          "unsc_inf_spartan_mpdoug_01": {
+            "Count": 1,
+            "CombatStats": {
+              "89": {
+                "AttacksLanded": 3
+              }
+            }
+          },
+          "unsc_inf_flameMarine_01": {
+            "Count": 3,
+            "CombatStats": {
+              "61": {
+                "AttacksLanded": 336
+              }
+            }
+          }
+        }
+      }
+    },
+    "TimeSinceStartMilliseconds": 327824,
+    "EventName": "Death"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 149,
+        "TotalSupply": 1744.262451171875,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 2,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 660
+      },
+      "2": {
+        "Supply": 1506,
+        "TotalSupply": 6039.06787109375,
+        "Energy": 886,
+        "TotalEnergy": 2506.640625,
+        "Population": 60,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 3,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 1359
+      }
+    },
+    "TimeSinceStartMilliseconds": 330700,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 149,
+        "TotalSupply": 1744.262451171875,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 2,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 679
+      },
+      "2": {
+        "Supply": 1603,
+        "TotalSupply": 6136.68212890625,
+        "Energy": 924,
+        "TotalEnergy": 2544.171142578125,
+        "Population": 60,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 3,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 1416
+      }
+    },
+    "TimeSinceStartMilliseconds": 335818,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 149,
+        "TotalSupply": 1744.262451171875,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 2,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 686
+      },
+      "2": {
+        "Supply": 1701,
+        "TotalSupply": 6234.29638671875,
+        "Energy": 961,
+        "TotalEnergy": 2581.70166015625,
+        "Population": 60,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 3,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 1423
+      }
+    },
+    "TimeSinceStartMilliseconds": 340816,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 1,
+    "InstanceId": 59,
+    "TimeSinceStartMilliseconds": 345442,
+    "EventName": "BuildingConstructionCompleted"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 149,
+        "TotalSupply": 1744.262451171875,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 2,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 753
+      },
+      "2": {
+        "Supply": 1799,
+        "TotalSupply": 6331.91064453125,
+        "Energy": 999,
+        "TotalEnergy": 2619.232177734375,
+        "Population": 60,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 3,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 1430
+      }
+    },
+    "TimeSinceStartMilliseconds": 345723,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 149,
+        "TotalSupply": 1744.262451171875,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 2,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 760
+      },
+      "2": {
+        "Supply": 1897,
+        "TotalSupply": 6429.52490234375,
+        "Energy": 1036,
+        "TotalEnergy": 2656.7626953125,
+        "Population": 60,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 3,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 1437
+      }
+    },
+    "TimeSinceStartMilliseconds": 350671,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 49,
+        "TotalSupply": 1744.262451171875,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 2,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 767
+      },
+      "2": {
+        "Supply": 1994,
+        "TotalSupply": 6527.13916015625,
+        "Energy": 1074,
+        "TotalEnergy": 2694.293212890625,
+        "Population": 60,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 3,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 1444
+      }
+    },
+    "TimeSinceStartMilliseconds": 355446,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 49,
+        "TotalSupply": 1744.262451171875,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 2,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 774
+      },
+      "2": {
+        "Supply": 2092,
+        "TotalSupply": 6624.75341796875,
+        "Energy": 1112,
+        "TotalEnergy": 2731.82373046875,
+        "Population": 60,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 3,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 1451
+      }
+    },
+    "TimeSinceStartMilliseconds": 360481,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 1,
+    "SquadId": "cov_inf_generic_grunt",
+    "InstanceId": 61,
+    "CreatorInstanceId": 59,
+    "SpawnLocation": {
+      "x": 628.2941,
+      "y": 83.125,
+      "z": 768.3267
+    },
+    "SupplyCost": 100,
+    "EnergyCost": 0,
+    "PopulationCost": 2,
+    "IsClone": false,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 364750,
+    "EventName": "UnitTrained"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 49,
+        "TotalSupply": 1744.262451171875,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 4,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 781
+      },
+      "2": {
+        "Supply": 2190,
+        "TotalSupply": 6722.36767578125,
+        "Energy": 1149,
+        "TotalEnergy": 2769.354248046875,
+        "Population": 60,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 3,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 1458
+      }
+    },
+    "TimeSinceStartMilliseconds": 365477,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 49,
+        "TotalSupply": 1744.262451171875,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 4,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 788
+      },
+      "2": {
+        "Supply": 2137,
+        "TotalSupply": 6820.09326171875,
+        "Energy": 1187,
+        "TotalEnergy": 2806.921875,
+        "Population": 60,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 3,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 1465
+      }
+    },
+    "TimeSinceStartMilliseconds": 371291,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 49,
+        "TotalSupply": 1744.262451171875,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 4,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 795
+      },
+      "2": {
+        "Supply": 2236,
+        "TotalSupply": 6918.57177734375,
+        "Energy": 1224,
+        "TotalEnergy": 2844.75,
+        "Population": 60,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 3,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 1472
+      }
+    },
+    "TimeSinceStartMilliseconds": 376409,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 49,
+        "TotalSupply": 1744.262451171875,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 4,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 802
+      },
+      "2": {
+        "Supply": 2334,
+        "TotalSupply": 7016.56396484375,
+        "Energy": 1262,
+        "TotalEnergy": 2882.390625,
+        "Population": 60,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 3,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 1479
+      }
+    },
+    "TimeSinceStartMilliseconds": 381203,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 49,
+        "TotalSupply": 1744.262451171875,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 4,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 809
+      },
+      "2": {
+        "Supply": 2431,
+        "TotalSupply": 7114.17822265625,
+        "Energy": 1300,
+        "TotalEnergy": 2919.921142578125,
+        "Population": 60,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 3,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 1486
+      }
+    },
+    "TimeSinceStartMilliseconds": 386031,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "PlayerIndex": 2,
+    "SquadId": "unsc_inf_generic_marine",
+    "InstanceId": 62,
+    "CreatorInstanceId": 10,
+    "SpawnLocation": {
+      "x": 388.999969,
+      "y": 114.3125,
+      "z": 1050.02307
+    },
+    "SupplyCost": 150,
+    "EnergyCost": 0,
+    "PopulationCost": 3,
+    "IsClone": false,
+    "ProvidedByScenario": false,
+    "TimeSinceStartMilliseconds": 387438,
+    "EventName": "UnitTrained"
+  }, {
+    "TeamResources": {
+      "1": {
+        "ObjectiveScore": 0
+      },
+      "2": {
+        "ObjectiveScore": 0
+      }
+    },
+    "PlayerResources": {
+      "1": {
+        "Supply": 49,
+        "TotalSupply": 1744.262451171875,
+        "Energy": 85,
+        "TotalEnergy": 400.0,
+        "Population": 4,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 2,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 816
+      },
+      "2": {
+        "Supply": 2529,
+        "TotalSupply": 7211.79248046875,
+        "Energy": 1337,
+        "TotalEnergy": 2957.45166015625,
+        "Population": 63,
+        "PopulationCap": 80,
+        "TechLevel": 1,
+        "CommandPoints": 1,
+        "TotalCommandPoints": 3,
+        "Mana": 0,
+        "TotalMana": 0.0,
+        "ManaRate": 0,
+        "CommandXP": 1493
+      }
+    },
+    "TimeSinceStartMilliseconds": 390813,
+    "EventName": "ResourceHeartbeat"
+  }, {
+    "MatchEndReason": 1,
+    "VictoryCondition": 1,
+    "ActivePlaytimeMilliseconds": 391169,
+    "TeamState": {
+      "1": {
+        "ObjectiveScore": 0,
+        "MatchOutcome": 2
+      },
+      "2": {
+        "ObjectiveScore": 0,
+        "MatchOutcome": 1
+      }
+    },
+    "PlayerState": {
+      "1": {
+        "PersonalScore": 24
+      },
+      "2": {
+        "PersonalScore": 806
+      }
+    },
+    "TimeSinceStartMilliseconds": 391235,
+    "EventName": "MatchEnd"
+  }],
+  "IsCompleteSetOfEvents": true
+}
