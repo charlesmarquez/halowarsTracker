@@ -1,5 +1,5 @@
 const { fetch } = require('../req');
-const config = require('../config');
+const config = require('./../../../config');
 const func = require('../modules/functions');
 const mapdata = require('../data/maps.json')
 const moment = require('moment');
