@@ -1,6 +1,9 @@
 var fs = require('fs');
 var path = require('path');
 
+const { MongoClient } = require('mongodb')
+const config = require('./../../../config')
+
 var playlists = JSON.parse(fs.readFileSync(path.join(__dirname + `/../data/playlists.json`)))
 var seasons = JSON.parse(fs.readFileSync(path.join(__dirname + `/../data/seasons.json`)))
 var csr_designation = JSON.parse(fs.readFileSync(path.join(__dirname + `/../data/csr_designation.json`)))
@@ -9,9 +12,6 @@ var game_obj1 = JSON.parse(fs.readFileSync(path.join(__dirname + `/../data/game_
 var game_obj2 = JSON.parse(fs.readFileSync(path.join(__dirname + `/../data/game_objects_2.json`)))
 var game_obj3 = JSON.parse(fs.readFileSync(path.join(__dirname + `/../data/game_objects_3.json`)))
 var game_obj4 = JSON.parse(fs.readFileSync(path.join(__dirname + `/../data/game_objects_4.json`)))
-
-const { MongoClient } = require('mongodb')
-const config = require('../config')
 
 const mergeJson = (game_objs) => {
     var res = []

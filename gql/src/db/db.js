@@ -1,6 +1,6 @@
 const mongo = require('mongodb').MongoClient
 const assert = require('assert');
-const config = require('../config');
+const config = require('./../../../config');
 
 const url = config.url
 const options = {
