@@ -1,3 +1,5 @@
+import { request } from 'graphql-request';
+
 export class QueryManager {
   
   public uri: string;
