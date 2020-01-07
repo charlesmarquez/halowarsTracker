@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon dist/app.js",
     "start:pm2": "tsc -p .; node dist/app.js",
-    "dev": "nodemon src/app.ts",
+    "devwatch": "concurrently \"npm run watch\" \"npm start\"",
     "watch": "tsc -p . --watch",
     "tslint": "tslint src/**/*.ts{,x}; exit 0;"
   },
@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "@types/mongodb": "^3.3.6",
+    "concurrently": "^5.0.2",
     "express": "^4.17.1",
     "graphql": "^14.5.3",
     "graphql-request": "^1.8.2",

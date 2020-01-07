@@ -14,10 +14,13 @@ export class LeaderBoard {
     public PlayerList: Array<string>;
     public Playlists: Array<string>;
     public PlayerActivity: Array<object> = [];
+    public pollingRate: number;
 
     constructor() {
         this.QueryManager = new QueryManager();
         this.MongoManager = new MongoManager();
+
+        this.pollingRate = 30000;
 
         this.searchLeaderboard();
     }
@@ -42,6 +45,8 @@ export class LeaderBoard {
                     const data = this.searchPlayer(player)
                     proms.push(data)
                 }
+
+                console.log(proms.length)
                 
                 Promise.all(proms).then(res => {
                     if (res.length > 0) {
@@ -49,19 +54,20 @@ export class LeaderBoard {
                         // RES HAS null VALUES ?
 
                         const x = res.filter(val => val != null)
+                        console.log(x.length)
                         x.sort((b, a) => {return a.LastOnlineVal - b.LastOnlineVal})
                         this.MongoManager.updateValue(x);
-
+                        console.log(this.pollingRate)
                         setTimeout(() => {
                             this.searchLeaderboard()
-                        }, 10000);
+                        }, this.pollingRate);
                         console.timeEnd('1')
                     }
                 }).catch(err => {
                     console.log(err)
                     setTimeout(() => {
                         this.searchLeaderboard()
-                    }, 10000);
+                    }, this.pollingRate);
                 })
             })
     }
@@ -72,6 +78,7 @@ export class LeaderBoard {
             Player (player: "${player}" count: "1") {
               MatchHistory{
                 Playlist
+                Time
                 LastOnline
                 LastOnlineVal
                 }
@@ -83,6 +90,7 @@ export class LeaderBoard {
             const data = {
                 _id: player,
                 Playlist: res.Player.MatchHistory[0].Playlist,
+                Time: res.Player.MatchHistory[0].Time,
                 LastOnline: res.Player.MatchHistory[0].LastOnline,
                 LastOnlineVal: res.Player.MatchHistory[0].LastOnlineVal
             }
