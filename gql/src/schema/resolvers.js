@@ -213,7 +213,9 @@ _handleMatch = (res) => {
     const i = moment.duration(res.PlayerMatchDuration);
     const j = moment(res.MatchStartDate.ISO8601Date)
     const lastOnline = Number(i+j);
+    
     res["LastOnlineVal"] = lastOnline;
+    res["Time"] = moment.now();
     res["LastOnline"] = moment(lastOnline).fromNow();
 
     // console.log(res)

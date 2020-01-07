@@ -30,6 +30,7 @@ module.exports.types = gql `
        MapName: String!
        LastOnline: String!
        LastOnlineVal: Float!
+       Time: Float!
        MatchEvents: MatchEvents
    }
 

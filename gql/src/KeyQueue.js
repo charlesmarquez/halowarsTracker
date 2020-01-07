@@ -15,6 +15,9 @@ class APIKey {
     getKey() {
         this.counter++
         this.checkLimit()
+        
+        console.log(this.counter)
+        
         return this.key
     }
 
