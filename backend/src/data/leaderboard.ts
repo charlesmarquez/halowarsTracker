@@ -20,7 +20,7 @@ export class LeaderBoard {
         this.QueryManager = new QueryManager();
         this.MongoManager = new MongoManager();
 
-        this.pollingRate = 30000;
+        this.pollingRate = 60000;
 
         this.searchLeaderboard();
     }
@@ -53,11 +53,13 @@ export class LeaderBoard {
 
                         // RES HAS null VALUES ?
 
+                        
+                        // filter NULL and sort dat
                         const x = res.filter(val => val != null)
-                        console.log(x.length)
                         x.sort((b, a) => {return a.LastOnlineVal - b.LastOnlineVal})
+                        
+
                         this.MongoManager.updateValue(x);
-                        console.log(this.pollingRate)
                         setTimeout(() => {
                             this.searchLeaderboard()
                         }, this.pollingRate);

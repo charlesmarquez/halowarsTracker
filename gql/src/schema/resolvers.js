@@ -61,7 +61,6 @@ module.exports.resolvers = {
             
             let res = x.ContentItems.map(a => a.View)
 
-
             for (const z of res) {
                 z.DevIdentity = modSeasonId(z.Identity)
             }
@@ -80,6 +79,7 @@ module.exports.resolvers = {
                 }
             } else {
                 console.log('parent.player', parent.player)
+                return null
             }
             return mHistory.Results
         },

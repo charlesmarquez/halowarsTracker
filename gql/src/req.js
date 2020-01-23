@@ -30,7 +30,7 @@ async function fetch(url, key) {
         case 200:
             return JSON.parse(response.body)
         default:
-            console.error(options.headers);
+            console.error(`Error: ${response.statusCode} /// ${url}`);
             return null
             // throw `Invalid Response. ${response.statusCode}`;
     }
