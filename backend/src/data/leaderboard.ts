@@ -12,6 +12,7 @@ export class LeaderBoard {
     public QueryManager: QueryManager;
     public MongoManager: MongoManager;
     public PlayerList: Array<string>;
+    public LeaderboardList: Array<string>;
     public Playlists: Array<string>;
     public PlayerActivity: Array<object> = [];
     public pollingRate: number;
@@ -29,6 +30,10 @@ export class LeaderBoard {
         return this.PlayerList
     }
 
+    private mergeDedupe = (arr: Array<any>) => {
+        return [...new Set([].concat(...arr))];
+    }
+
     private searchLeaderboard = () => {
             console.time('1')
             const LEADERBOARDQUERY = `query {
@@ -36,11 +41,12 @@ export class LeaderBoard {
             }`
             
             this.QueryManager.query(LEADERBOARDQUERY).then(res => {
-                this.PlayerList = res.Leaderboard;
+                this.LeaderboardList = res.Leaderboard;
             }).then(res => {
-                this.PlayerList = [...new Set(this.PlayerList)] // unique player list        
+                this.PlayerList = this.mergeDedupe([this.LeaderboardList, this.PlayerList]) // unique player list        
                 
                 const proms: Array<Promise<any>> = []
+                
                 for (const player of this.PlayerList) {
                     const data = this.searchPlayer(player)
                     proms.push(data)
@@ -52,14 +58,13 @@ export class LeaderBoard {
                     if (res.length > 0) {
 
                         // RES HAS null VALUES ?
-
                         
                         // filter NULL and sort dat
                         const x = res.filter(val => val != null)
                         x.sort((b, a) => {return a.LastOnlineVal - b.LastOnlineVal})
                         
-
                         this.MongoManager.updateValue(x);
+                        
                         setTimeout(() => {
                             this.searchLeaderboard()
                         }, this.pollingRate);

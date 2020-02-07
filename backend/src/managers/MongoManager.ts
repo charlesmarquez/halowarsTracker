@@ -19,7 +19,7 @@ export class MongoManager {
         this.options = {
             useNewUrlParser: true,
             useUnifiedTopology: true,
-            poolSize: 30
+            poolSize: 60
         }
         this.dbname = config.dbname;
         this.collection = config.collection;
@@ -45,10 +45,22 @@ export class MongoManager {
     
             // Collection dropped everytime, may be a flaw
 
-            coll.drop() 
+            // coll.drop() 
+
+            // for (const row of item) {
+            //     coll.insertOne(row)
+            // }
 
             for (const row of item) {
-                coll.insertOne(row)
+                try {
+                    coll.updateOne(
+                        {"_id": row._id},
+                        {$set: {Playlist:row.Playlist, Time: row.Time, LastOnline: row.LastOnline, LastOnlineVal: row.LastOnlineVal, LastUpdated: Date.now()}},
+                        {upsert: true}
+                        )
+                } catch (e) {
+                    console.error(e);
+                }
             }
 
             conn.close()
