@@ -48,12 +48,11 @@ module.exports.resolvers = {
         },
         PlayerActivity: (_, args) => {
             let res = []
-            const currentTime = moment();
-            console.log(`PlayerActivity ${currentTime}`)
 
-            res['LastUpdatedVal'] = currentTime;
-            res['LastUpdated'] = currentTime.format("dddd, MMMM Do YYYY, h:mm:ss a");
             res['Players'] = func.getPlayerActivity();
+            
+            // res['LastUpdated'] = res['Players'][0].format("dddd, MMMM Do YYYY, h:mm:ss a");
+
             return res
         },
         SeasonMetadata: async (_, args) => {

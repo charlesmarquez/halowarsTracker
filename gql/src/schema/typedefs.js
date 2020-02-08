@@ -57,8 +57,6 @@ module.exports.types = gql `
     }
 
     type PlayerActivity {
-        LastUpdateVal: Float!
-        LastUpdated: String!
         Players: [MongoPlayer!]!
     }
 
@@ -67,6 +65,7 @@ module.exports.types = gql `
         Playlist: String!
         LastOnline: String!
         LastOnlineVal: Float
+        LastUpdated: Float
     }
 
     # --------- PlayerJoinedMatch --------- #
