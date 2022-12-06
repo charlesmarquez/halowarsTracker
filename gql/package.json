@@ -19,7 +19,7 @@
     "mongodb": "^3.3.3",
     "mongoose": "^5.7.6",
     "nodemon": "^1.18.7",
-    "request-rate-limiter": "^1.0.2"
+    "request-rate-limiter": "^2.0.3"
   },
   "devDependencies": {
     "eslint": "^6.4.0",
